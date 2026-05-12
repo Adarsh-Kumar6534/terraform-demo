@@ -1,56 +1,50 @@
-# Terraform AWS Demo
+# Terraform Demo Project
 
-A beginner Terraform project demonstrating Infrastructure as Code (IaC) using AWS and Terraform.
+A beginner Terraform project demonstrating Terraform basics, modules, variables, outputs, and file generation.
+
+---
 
 ## Project Overview
 
-This project provisions AWS infrastructure resources using Terraform configuration files.
-
-The goal of this project is to understand:
-- Terraform basics
-- AWS provider configuration
-- Infrastructure as Code workflow
-- Resource provisioning using Terraform
-
----
-
-## AWS Resources Created
-
-- IAM User
-- Output Configuration
-- Terraform Modules
-- File Generation Module
+This project was created to understand:
+- Terraform workflow
+- Terraform modules
+- Variables and outputs
+- Infrastructure as Code concepts
+- File generation using Terraform
 
 ---
 
-## Tools & Technologies Used
+## Features
 
-- Terraform
-- AWS
-- AWS CLI
-- IAM
-- Git & GitHub
+- Uses Terraform modules
+- Generates files automatically
+- Uses variables and outputs
+- Organized Terraform structure
 
 ---
 
-## Terraform Commands Used
+## Project Structure
 
-### Initialize Terraform
-
-```bash
-terraform init
-terraform plan
-terraform apply
-terraform destroy
-```
-```bash
-Project Structure
+```txt 
 terraform-demo/
 │
 ├── main.tf
 ├── variables.tf
 ├── output.tf
 ├── .terraform.lock.hcl
+├── output/
 ├── modules/
 │   └── file-creator/
+```
+```
+Terraform Commands Used
+  -Initialize Terraform
+   -terraform init
+  -Preview Changes
+   -terraform plan
+  -Apply Changes
+   -terraform apply
+  -Destroy Resources
+   -terraform destroy
 ```
