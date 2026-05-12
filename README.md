@@ -44,7 +44,7 @@ terraform apply
 terraform destroy
 ```
 ```bash
-###Project Structure
+Project Structure
 terraform-demo/
 │
 ├── main.tf
